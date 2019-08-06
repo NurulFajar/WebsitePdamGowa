@@ -1,0 +1,2 @@
+# WebsitePdamGowa
+ppl alias magang
