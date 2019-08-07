@@ -215,16 +215,14 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/wae.jpg") center top no-repeat;
   background-size: cover;
 }
 
 #intro .intro-info h2 {
-<<<<<<< HEAD
-  color: #281caa;
-=======
+
   color: #201a68;
->>>>>>> e631336b9b1c9d48f0e54d4efba79099c2e08390
+
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
