@@ -220,7 +220,11 @@ h6 {
 }
 
 #intro .intro-info h2 {
+<<<<<<< HEAD
+  color: #281caa;
+=======
   color: #201a68;
+>>>>>>> e631336b9b1c9d48f0e54d4efba79099c2e08390
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
