@@ -163,7 +163,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  transition: all 0.2s;
+  transition: all 0.5s;
   z-index: 997;
 }
 
@@ -192,14 +192,14 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #201a68;
+  color: #413e66;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 20px;
+  max-height: 49px;
 
 }
 
@@ -511,7 +511,7 @@ h6 {
 }
 
 #about .about-content h2 {
-  color: #201a68;
+  color: #413e66;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -1532,7 +1532,7 @@ h6 {
   }
 
   #intro .intro-img {
-    width: 60%;
+    width: 80%;
   }
 
   #intro .intro-info {
