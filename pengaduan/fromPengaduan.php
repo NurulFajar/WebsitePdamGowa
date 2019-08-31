@@ -27,7 +27,7 @@
                     <h2 class="title">Pengaduan</h2>
                 </div>
                 <div class="card-body">
-                    <form method="POST">
+                    <form method="POST" action = "dbadu.php" enctype = "multipart/from-data">
                         <div class="form-row">
                             <div class="name">No Pelanggan</div>
                             <div class="value">
@@ -52,16 +52,17 @@
                             <div class="name">Keluhan</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <textarea class="textarea--style-6" name="message" placeholder=""></textarea>
+                                    <textarea class="textarea--style-6" name="keluhan" placeholder=""></textarea>
                                 </div>
                             </div>
                         </div>
-                    </form>
+                   
                 </div>
                 <div class="card-footer">
-                    <button class="btn btn--radius-2 btn--blue-2" type="submit">Adukan</button>
+                    <button class="btn btn--radius-2 btn--blue-2" type="submit" value = "kirim">Adukan</button>
                     <a href="../index.html"><button class="btn btn--radius-3 btn--blue-1" type="submit">Cancel</button></a>
                 </div>
+                </form>
                 </div>
             </div>
         </div>
@@ -78,3 +79,7 @@
 
 </html>
 <!-- end document-->
+<?php
+    date_default_timezone_set ('Asia/makassar');
+    echo date ('D, d F Y'). " pukul " . date ('H:i')
+?>
