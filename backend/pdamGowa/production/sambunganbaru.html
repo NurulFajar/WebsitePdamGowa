@@ -55,6 +55,7 @@
                     <ul class="nav child_menu">
                       <li><a href="sambunganbaru.html">Formulir sambungan Baru</a></li>
                       <li><a href="formuliraduan.html">Formulir Aduan</a></li>
+                      <li><a href="pegawaibaru.html">Formulir Pegawai Baru</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Data Informasi <span class="fa fa-chevron-down"></span></a>
@@ -234,7 +235,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <!-- <h2>Formulir<small>sub title</small></h2> -->
+                     <h2><center>SURAT PERMOHONAN CALON PELANGGAN</center></h2> 
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -256,62 +257,61 @@
 
                     <form class="form-horizontal form-label-left" novalidate>
 
-                      <p>For alternative validation library <code>parsleyJS</code> check out in the <a href="form.html">form page</a>
-                      </p>
-                      <span class="section">Personal Info</span>
+                      <p>Harap di isi dengan huruf balok </p>
+                      <span class="section">Data Pemohon</span>
 
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Name <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Nama Pemilik Rumah <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="both name(s) e.g Jon Doe" required="required" type="text">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Email <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Nama Calon Pelanggan <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input type="email" id="email" name="email" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Confirm Email <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Alamat lengkap <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input type="email" id="email2" name="confirm_email" data-validate-linked="email" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Number <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Kelurahan <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input type="number" id="number" name="number" required="required" data-validate-minmax="10,100" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="website">Website URL <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="website"> Kecamatan <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="url" id="website" name="website" required="required" placeholder="www.website.com" class="form-control col-md-7 col-xs-12">
+                          <input type="text" id="" name="kec" required="required" placeholder="" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="occupation">Occupation <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="occupation">Kode Pos<span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="occupation" type="text" name="occupation" data-validate-length-range="5,20" class="optional form-control col-md-7 col-xs-12">
+                          <input id="" type="number" name="pos" data-validate-length-range="5,20" class="optional form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label for="password" class="control-label col-md-3">Password</label>
+                        <label for="password" class="control-label col-md-3">Nomor KTP/SIM</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="password" type="password" name="password" data-validate-length="6,8" class="form-control col-md-7 col-xs-12" required="required">
+                          <input id="" type="number" name="ktp_sim" data-validate-length="6,8" class="form-control col-md-7 col-xs-12" required="required">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label for="password2" class="control-label col-md-3 col-sm-3 col-xs-12">Repeat Password</label>
+                        <label for="password2" class="control-label col-md-3 col-sm-3 col-xs-12">Telepon</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="password2" type="password" name="password2" data-validate-linked="password" class="form-control col-md-7 col-xs-12" required="required">
+                          <input id="" type="number" name="tlpn" class="form-control col-md-7 col-xs-12" required="required">
                         </div>
                       </div>
                       <div class="item form-group">
@@ -347,7 +347,7 @@
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            <a href="index.html"> PDAM TIRTA JENEBERANG </a>
           </div>
           <div class="clearfix"></div>
         </footer>
